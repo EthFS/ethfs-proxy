@@ -1,0 +1,76 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "path",
+        "type": "bytes"
+      },
+      {
+        "name": "key",
+        "type": "bytes"
+      }
+    ],
+    "name": "readPath",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "path",
+        "type": "bytes"
+      }
+    ],
+    "name": "stat",
+    "outputs": [
+      {
+        "name": "fileType",
+        "type": "uint8"
+      },
+      {
+        "name": "mode",
+        "type": "uint16"
+      },
+      {
+        "name": "ino",
+        "type": "uint256"
+      },
+      {
+        "name": "links",
+        "type": "uint256"
+      },
+      {
+        "name": "owner",
+        "type": "address"
+      },
+      {
+        "name": "group",
+        "type": "address"
+      },
+      {
+        "name": "entries",
+        "type": "uint256"
+      },
+      {
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "name": "lastModified",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

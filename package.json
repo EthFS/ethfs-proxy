@@ -1,0 +1,12 @@
+{
+  "name": "ethfs-proxy",
+  "version": "0.1.0",
+  "description": "Web proxy server for EthFS",
+  "main": "index.js",
+  "repository": "https://github.com/EthFS/ethfs-proxy.git",
+  "author": "Hector Chu",
+  "license": "MIT",
+  "dependencies": {
+    "web3-eth-contract": "^1.3.6"
+  }
+}
