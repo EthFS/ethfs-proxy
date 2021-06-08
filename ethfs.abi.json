@@ -9,6 +9,14 @@
       {
         "name": "key",
         "type": "bytes"
+      },
+      {
+        "name": "start",
+        "type": "uint256"
+      },
+      {
+        "name": "length",
+        "type": "uint256"
       }
     ],
     "name": "readPath",
@@ -57,7 +65,7 @@
         "type": "address"
       },
       {
-        "name": "entries",
+        "name": "nEntries",
         "type": "uint256"
       },
       {
