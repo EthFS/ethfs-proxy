@@ -8,7 +8,7 @@ http.createServer(async (req, res) => {
     if (index < 0) index = req.url.length
     const address = req.url.slice(1, index)
     let path = req.url.slice(index)
-    const provider = new ethers.providers.JsonRpcProvider('https://api.harmony.one')
+    const provider = new ethers.providers.JsonRpcProvider('https://s1.api.harmony.one')
     const kernel = new ethers.Contract(address, abi, provider)
     const {fileType} = await kernel.stat(toUtf8Bytes(path || '/'))
     if (fileType == 2) {
