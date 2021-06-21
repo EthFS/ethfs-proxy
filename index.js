@@ -15,6 +15,12 @@ http.createServer(async (req, res) => {
     case 'harmony-s1':
       network = 'https://s1.api.harmony.one'
       break
+    case 'harmony-s2':
+      network = 'https://s2.api.harmony.one'
+      break
+    case 'harmony-s3':
+      network = 'https://s3.api.harmony.one'
+      break
     }
     const provider = new ethers.providers.JsonRpcProvider(network)
     const kernel = new ethers.Contract(address, abi, provider)
